@@ -3,11 +3,11 @@
 
 namespace Calc 
 {
-    public static class Calculation
+    class Calculation
     {
-        public static int Sum(int x, int y)
+        static void Main(string[]args)
         {
-Console.WriteLine($"\nНайти точку пересечения двух прямых\n");
+Console.WriteLine($"\nНайти точку пересечения двух прямых \n");
 
 double[,] coeff = new double[2, 2];
 double[] crossPoint = new double[2];
